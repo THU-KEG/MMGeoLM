@@ -21,7 +21,7 @@ We introduce **MMGeoLM**, a project designed to enhance the geometric problem-so
 
 
 
-We release **MM-Math-Align**, a dataset built upon [**MM-Math**](https://huggingface.co/datasets/THU-KEG/MM_Math), which is derived from actual geometry questions used in middle school exams. Each sample contains the original geometric diagram, a Python script that approximately reconstructs the original diagram, a caption describing the positive image, 10 negative example Python scripts generated based on the positive image, and 10 corresponding negative example captions. The dataset consists of a total of 4,021 samples.
+We release **MM-Math-Align**, a dataset built upon [**MM-Math**](https://huggingface.co/datasets/THU-KEG/MM_Math), which is derived from actual geometry questions used in middle school exams. Each sample contains the original geometric diagram, a Python script's image that approximately reconstructs the original diagram, a caption describing the positive image, 10 negative Python script images generated based on the positive image, and 10 corresponding negative captions. The dataset consists of a total of 4,021 samples.
 
 The Hugging Face dataset download link for MM-Math-Align: [🤗 HF Dataset](https://huggingface.co/datasets/THU-KEG/MM-Math-Align)
 
