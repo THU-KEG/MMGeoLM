@@ -4,7 +4,7 @@
 <h3></h3>
 
 | [🤗 HF Dataset](https://huggingface.co/datasets/THU-KEG/MM-Math-Align) |
-[📃 Paper]() |
+[📃 Paper](https://arxiv.org/abs/2505.20152) |
 </div>
 
 We introduce **MMGeoLM**, a project designed to enhance the geometric problem-solving capabilities of Large Multimodal Models (LMMs). This work consists of three main components: (1) constructing a comprehensive geometric dataset, which includes image-text alignment data, image-based and text-based hard negatives, and supervised fine-tuning data; (2) training vision encoders with hard negatives to improve their perception of geometric elements; and (3) performing supervised fine-tuning of LMMs.
