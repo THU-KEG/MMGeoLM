@@ -76,7 +76,7 @@ We adopt the Qwen2.5-7B-Instruct model as the backbone of our LMs. As for Mammot
 **First Stage**: After training CLIP, we provide a training script for MLP. Please refer to [`pretrain_qwen2_5.sh`](./LLaVA-NeXT-Qwen2_5/scripts/pretrain_qwen2_5.sh). In this stage, both the vision encoder and LLM are frozen. In the script, conversation version must be configured with `--version qwen_1_5`; otherwise, errors may occur when training with the Qwen2.5 model.
 
 **Second Stage**: In this stage, we involves training the entire multimodal architecture,  and we provide a training script [`finetune_qwen2_5.sh`](./LLaVA-NeXT-Qwen2_5/scripts/finetune_qwen2_5.sh). This script integrates the pre-trained MLP module and performs supervised fine-tuning on the full model.
-## citation
+## Citation
 ```
 @misc{sun2025hardnegativecontrastivelearning,
       title={Hard Negative Contrastive Learning for Fine-Grained Geometric Understanding in Large Multimodal Models}, 
