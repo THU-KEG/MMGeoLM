@@ -78,7 +78,15 @@ We adopt the Qwen2.5-7B-Instruct model as the backbone of our LMs. As for Mammot
 **Second Stage**: In this stage, we involves training the entire multimodal architecture,  and we provide a training script [`finetune_qwen2_5.sh`](./LLaVA-NeXT-Qwen2_5/scripts/finetune_qwen2_5.sh). This script integrates the pre-trained MLP module and performs supervised fine-tuning on the full model.
 ## citation
 ```
-@artical 
+@misc{sun2025hardnegativecontrastivelearning,
+      title={Hard Negative Contrastive Learning for Fine-Grained Geometric Understanding in Large Multimodal Models}, 
+      author={Kai Sun and Yushi Bai and Zhen Yang and Jiajie Zhang and Ji Qi and Lei Hou and Juanzi Li},
+      year={2025},
+      eprint={2505.20152},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.20152}, 
+}
 ```
 
 
